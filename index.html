@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Drum Kit</title>
+</head>
+<body>
+  <div class="keys">
+    <!-- I, 0 -->
+    <div data-key="73" class="key">
+      <kbd>I</kbd>
+      <span class="sound"></span>
+    </div> 
+    <!-- L, 0 -->
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound"></span>
+    </div>
+    <!-- O, 0 -->
+    <div data-key="79" class="key">
+      <kbd>O</kbd>
+      <span class="sound"></span>
+    </div> 
+    <!-- V, 0 -->
+    <div data-key="86" class="key">
+      <kbd>V</kbd>
+      <span class="sound"></span>
+    </div> 
+    <!-- U, 0 -->
+    <div data-key="85" class="key">
+      <kbd>U</kbd>
+      <span class="sound"></span>
+    </div> 
+    <!-- R, 0 -->
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound"></span>
+    </div>
+    <!-- A, 0 -->
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound"></span>
+    </div>
+    <!-- Y, 0 -->
+    <div data-key="89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound"></span>
+    </div> 
+  </div>
+
+  <audio data-key="73" src="sounds/F7.wav"></audio>
+  <audio data-key="76" src="sounds/Dm.wav"></audio>
+  <audio data-key="79" src="sounds/SP.wav"></audio>
+  <audio data-key="86" src="sounds/Cadd.wav"></audio>
+  <audio data-key="85" src="sounds/Gm.wav"></audio>
+  <audio data-key="82" src="sounds/Spa.wav"></audio>
+  <audio data-key="65" src="sounds/Fm.wav"></audio>
+  <audio data-key="89" src="sounds/Emaj.wav"></audio>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
